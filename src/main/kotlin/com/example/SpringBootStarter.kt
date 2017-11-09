@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.helloworld.GreetingRest
 import org.glassfish.jersey.server.ResourceConfig
 import org.h2.tools.Server
 import org.springframework.boot.SpringApplication
@@ -14,7 +15,7 @@ open class SpringBootStarter
 class JerseyConfig : ResourceConfig() {
     @PostConstruct
     fun setup() {
-        packages("com.example")
+        register(GreetingRest::class.java)
     }
 }
 
