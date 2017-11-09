@@ -5,3 +5,4 @@ target/
 
 database.mv.db
 
+.DS_Store
