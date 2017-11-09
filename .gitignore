@@ -1,7 +1,8 @@
 .idea/
 *.iml
 
-target/
+build/
+.gradle/
 
 database.mv.db
 
