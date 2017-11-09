@@ -25,9 +25,9 @@ buildscript {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib"
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-jersey'
-    compile group: 'org.flywaydb', name: 'flyway-core'
-    compile group: 'com.h2database', name: 'h2'
+    compile "org.springframework.boot:spring-boot-starter"
+    compile "org.springframework.boot:spring-boot-starter-jdbc"
+    compile "org.springframework.boot:spring-boot-starter-jersey"
+    compile "org.flywaydb:flyway-core"
+    compile "com.h2database:h2"
 }
